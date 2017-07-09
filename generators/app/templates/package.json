@@ -1,0 +1,34 @@
+{
+  "name": "<%= projectName %>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Logan McAnsh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production node server"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-plugin-inline-react-svg": "^0.4.0",
+    "glob": "^7.1.2",
+    "next": "beta",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "postcss-easy-import": "^2.1.0",
+    "postcss-loader": "^2.0.6",
+    "prop-types": "^15.5.10",
+    "raw-loader": "^0.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^6.0.6"
+  }
+}
