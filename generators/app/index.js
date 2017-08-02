@@ -5,11 +5,6 @@ const yosay = require('yosay');
 
 module.exports = class extends Generator {
   prompting() {
-    // Have Yeoman greet the user.
-    this.log(yosay(
-      'Welcome to the mathematical ' + chalk.red('generator-new-nextjs-app') + ' generator!'
-    ));
-
     const prompts = [{
       type: 'input',
       name: 'projectName',
@@ -24,16 +19,14 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    // const projectName = this.props.projectName;
-
     this.fs.copyTpl(
       `${this.templatePath()}//**/!(_)`,
       this.destinationPath(),
-      this.props
+      this.props,
     );
   }
 
   install() {
-    this.installDependencies();
+    this.yarnInstall();
   }
 };
