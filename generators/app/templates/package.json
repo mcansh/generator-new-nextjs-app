@@ -2,12 +2,13 @@
   "name": "<%= projectName %>",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Logan McAnsh",
+  "author": "<%= projectAuthor %>",
   "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "eslint ./"
   },
   "devDependencies": {
     "eslint": "^4.1.1",
