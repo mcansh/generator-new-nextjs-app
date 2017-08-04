@@ -1,4 +1,6 @@
 # generator-new-nextjs-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mcansh/generator-new-nextjs-app.svg)](https://greenkeeper.io/)
 >
 
 ## Installation
