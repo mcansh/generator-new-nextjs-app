@@ -1,5 +1,5 @@
 # generator-new-nextjs-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> 
+>
 
 ## Installation
 
@@ -16,21 +16,6 @@ Then generate your new project:
 yo new-nextjs-app
 ```
 
-## Getting To Know Yeoman
+## Getting Started
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
-
-## License
-
-MIT © [Logan McAnsh]()
-
-
-[npm-image]: https://badge.fury.io/js/generator-new-nextjs-app.svg
-[npm-url]: https://npmjs.org/package/generator-new-nextjs-app
-[travis-image]: https://travis-ci.org/mcansh/generator-new-nextjs-app.svg?branch=master
-[travis-url]: https://travis-ci.org/mcansh/generator-new-nextjs-app
-[daviddm-image]: https://david-dm.org/mcansh/generator-new-nextjs-app.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/mcansh/generator-new-nextjs-app
+this will generate a new nextjs app for you including support for sass.
