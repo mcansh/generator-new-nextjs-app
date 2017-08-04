@@ -1,6 +1,6 @@
 {
   "name": "generator-new-nextjs-app",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Generate a new nextjs app",
   "homepage": "https://github.com/mcansh/generator-new-nextjs-app",
   "author": "Logan McAnsh <logan@mcan.sh> (https://mcan.sh)",
