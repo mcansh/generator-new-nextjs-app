@@ -1,26 +1,22 @@
 {
   "name": "generator-new-nextjs-app",
   "version": "1.0.5",
-  "description": "",
-  "homepage": "",
-  "author": {
-    "name": "Logan McAnsh",
-    "email": "logan@mcan.sh",
-    "url": ""
-  },
+  "description": "Generate a new nextjs app",
+  "homepage": "https://github.com/mcansh/generator-new-nextjs-app",
+  "author": "Logan McAnsh <logan@mcan.sh> (https://mcan.sh)",
   "files": [
     "generators"
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
+    "next js generator",
     "yeoman-generator",
     "yeoman-generator"
   ],
   "devDependencies": {
     "coveralls": "^2.13.1",
     "eslint": "^4.2.0",
-    "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-airbnb": "^15.1.0",
     "eslint-config-xo-space": "^0.16.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
@@ -41,7 +37,6 @@
   },
   "scripts": {
     "prepublish": "nsp check",
-    "pretest": "eslint . --fix",
     "test": "jest"
   },
   "eslintConfig": {
@@ -51,6 +46,6 @@
       "node": true
     }
   },
-  "repository": "mcansh/generator-new-nextjs-app",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "git@github.com:mcansh/generator-new-nextjs-app.git"
 }
