@@ -1,5 +1,7 @@
-# generator-new-nextjs-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
->
+# generator-new-nextjs-app
+[![Build Status](https://travis-ci.org/mcansh/generator-new-nextjs-app.svg?branch=master)](https://travis-ci.org/mcansh/generator-new-nextjs-app)
+[![Dependencies Status](https://david-dm.org/mcansh/generator-new-nextjs-app/status.svg)](https://david-dm.org/mcansh/generator-new-nextjs-app)
+[![devDependencies Status](https://david-dm.org/mcansh/generator-new-nextjs-app/dev-status.svg)](https://david-dm.org/mcansh/generator-new-nextjs-app?type=dev)
 
 ## Installation
 
