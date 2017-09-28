@@ -14,7 +14,7 @@
     "yeoman-generator"
   ],
   "devDependencies": {
-    "coveralls": "^2.13.1",
+    "coveralls": "^3.0.0",
     "eslint": "^4.2.0",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-config-xo-space": "^0.16.0",
